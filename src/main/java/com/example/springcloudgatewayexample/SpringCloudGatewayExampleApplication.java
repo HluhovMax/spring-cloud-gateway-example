@@ -7,6 +7,10 @@ import org.springframework.cloud.gateway.filter.ratelimit.KeyResolver;
 import org.springframework.context.annotation.Bean;
 import reactor.core.publisher.Mono;
 
+/**
+ * Do not forget run up redis-server
+ */
+
 @EnableDiscoveryClient
 @SpringBootApplication
 public class SpringCloudGatewayExampleApplication{
